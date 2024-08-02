@@ -1,0 +1,28 @@
+mongo pw BDOvd9u1g3zCSjgk
+mongodb+srv://balalanick790:DOvd9u1g3zCSjgk@cluster0.yrlusiz.mongodb.net/
+
+
+
+
+
+
+
+
+
+async await 
+mmiddlewaew concept 
+
+templet engin ejs or hendelers 
+rendering dynamic content 
+
+nosql databse 
+
+orm
+
+websocket
+socket.io
+brodcasting events
+
+mocha chai
+
+

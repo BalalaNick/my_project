@@ -26,6 +26,20 @@ app.listen(3000, function () {
 
 
 //or push an existing repository from the command line
-// git remote add origin https://github.com/BalalaNick/my_project.git
-// git branch -M main
+//
+// git add *
+// git commit -m "second commit"
 // git push -u origin main
+
+
+
+
+// transection tid bid cid date remark amount ctype 
+//in u del
+// amount bid  year wise transection i out net balace  (if pas bid then  else all ) (bname in out net balance)
+// income  out (total transection by year ) ex (slary by year)  (category pas ) 
+// expence
+
+
+
+

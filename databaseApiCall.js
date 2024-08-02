@@ -3,11 +3,16 @@ const bcrypt = require('bcryptjs');
 const saltRounds = 10;
 
 var connection = mysql.createConnection({
-    host: '9az.h.filess.io',
-    user: 'usermanagement01_attention',
-    password: '31f75beb2b6de83acc32aaed3a2d532c94c7c022',
-    database: 'usermanagement01_attention',
-    port: '3307'
+    // host: '9az.h.filess.io',
+    // user: 'usermanagement01_attention',
+    // password: '31f75beb2b6de83acc32aaed3a2d532c94c7c022',
+    // database: 'usermanagement01_attention',
+    // port: '3307'
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
+    database: 'usermanagement'
+
 });
 
 connection.connect(function (err) {
