@@ -25,9 +25,9 @@ exports.createBusinessCategory = (req, res) => {
     const { category_name, bid, user_id, category_type } = req.body;
     const query = 'INSERT INTO businesscategory (category_name, bid, user_id, category_type) VALUES (?, ?, ?, ?)';
     connection.query(query, [category_name, bid, user_id, category_type], (err, results) => {
-        if (err) { throw error
-            // console.error('error inserting:', err);
-            // res.status(500).send({ message: 'Error inserting data' });
+        if (err) {
+            console.error('error inserting:', err);
+            res.status(500).send({ message: 'Error inserting data' });
         } else {
             res.send({ message: 'Data inserted successfully' });
         }
@@ -60,3 +60,4 @@ exports.deleteBusinessCategory = (req, res) => {
         }
     });
 };
+

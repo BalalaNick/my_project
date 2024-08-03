@@ -41,5 +41,8 @@ app.listen(3000, function () {
 // expence
 
 
+// 1) if i pass bid then it filter record via else it shows all record that avalibe in tabel
+//2) in if part  shows me year wise transection of that business  so first i get business name then business total income and expence year wise  and also right now current balance 
+
 
 
